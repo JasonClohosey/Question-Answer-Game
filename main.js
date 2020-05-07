@@ -16,7 +16,7 @@ var questions = [
 var gamePts = 0;
 var questionIndex = 0;
 
-var userPick = document.getElementById("user-pick");
+// var userPick = document.getElementById("user-pick");
     
 document.getElementById("true").onclick = function(event, userPick) {
     userPick = document.getElementById("true").value;
@@ -46,7 +46,7 @@ function renderQuestion() {
 };
 
 function updateScore() {
-    document.querySelector("#gamePts").innerHTML = "gamePts: " + gamePts;
+    document.querySelector("#gamePts").innerHTML = "Game Points: " + gamePts;
   }
 
   renderQuestion();
@@ -76,5 +76,13 @@ function runGame(userPick) {
     renderQuestion();
     
 };
+
 };
+// reset();
+
+// function reset() {
+//     if (questions[questionIndex] === questions.length - 1){
+//         gamePts = 0;
+//     }
+// }
 

@@ -4,7 +4,44 @@
 body {
     background-color: gray;
     color: white;
+    margin: 0rem;
 }
 button {
     background-color: teal;
+    width: 25%;
+    float: left;
+    margin-left: 16.66%;
+
+}
+h1 {
+    background-color: teal;
+    text-align: center;
+    margin-top: 0rem;
+    height: 5rem;
+    padding-top: 1.25rem;
+    font-size: 1.75rem;
+}
+h2 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-size: 1.25rem;
+}
+#question {
+    text-align: center;
+}
+#true {
+
+}
+#false {
+
+}
+#answer {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#gamePts {
+    width: 100%;
+    float: left;
+    text-align: center;
 }
