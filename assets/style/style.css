@@ -5,6 +5,7 @@ body {
     /* background-color: gray; */
     color: white;
     margin: 0rem;
+    background-image: url("../images/technical-background.jpg");
 }
 button {
     background-color: white;
