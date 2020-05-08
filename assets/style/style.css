@@ -24,7 +24,7 @@ button:active {
 }
 h1 {
     background-color: black;
-    opacity: .7;
+    opacity: .8;
     color: white;
     text-align: center;
     margin-top: 0rem;
@@ -71,7 +71,7 @@ p {
     float: left;
     text-align: center;
     background-color: black;
-    opacity: .75;
+    opacity: .8;
     height: 4rem;
     padding-top: 1rem;
     margin-bottom: 0rem;
@@ -81,7 +81,7 @@ p {
     float: left;
     text-align: center;
     background-color: black;
-    opacity: .75;
+    opacity: .8;
     height: 4rem;
     padding-top: .75rem;
     width: 70%;
