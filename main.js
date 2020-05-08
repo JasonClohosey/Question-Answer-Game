@@ -76,11 +76,5 @@ function runGame(userPick) {
 };
 
 };
-// reset();
 
-// function reset() {
-//     if (questions[questionIndex] === questions.length - 1){
-//         gamePts = 0;
-//     }
-// }
 
