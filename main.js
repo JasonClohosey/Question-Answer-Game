@@ -1,13 +1,12 @@
-// alert ("This is the Q & A Game!");
 
 var questions = [ 
-    { q: "Bicycles have two wheels.", a: "t" },
+    { q: "Cars typically have have four wheels.", a: "t" },
     { q: "Diesel can be lit with a match.", a: "f" },
     { q: "Car warrantys will cover car accidents.", a: "f" },
     { q: "A 30 year old car is considered a classic.", a: "t" },
     { q: "Low octane fuel is more explosive.", a: "t" },
     { q: "Your flashers should be on in the rain.", a: "f" },
-    { q: "A dragstrip is 1320 feet", a: "t" },
+    { q: "A 1/4 mile dragstrip is 1320 feet", a: "t" },
     { q: "Allseason tires are okay on ice.", a: "f" },
     { q: "Your headlights must be on at night.", a: "t" },
     { q: "e85 is 15% gasoline.", a: "t" }
@@ -16,7 +15,6 @@ var questions = [
 var gamePts = 0;
 var questionIndex = 0;
 
-// var userPick = document.getElementById("user-pick");
     
 document.getElementById("true").onclick = function(event, userPick) {
     userPick = document.getElementById("true").value;
